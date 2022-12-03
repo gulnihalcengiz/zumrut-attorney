@@ -227,12 +227,14 @@
     .section_testimonial{
         justify-content: center;
         padding: 3% 5%;
+        margin-top: -1rem;
     }
     .section_testimonial .title_img{
         margin-left: 45%;
     }
     .testimonial{
-        padding: 3% 5%;
+        padding: 3% 7%;
+        margin-bottom: 3rem;
     }
     .testimonial_title{
         font-size: 2.2rem;
@@ -254,6 +256,9 @@
     .testimonial_head h3{
         font-size: 1.2rem;
     }
+    /* .testimonial_card, .testimonial_card2{
+        box-shadow: 0px 0px 0px;
+    } */
 }
 
 @media screen and (max-width:500px){

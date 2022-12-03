@@ -337,6 +337,9 @@ header .text a{
     }
     .awards_list{
         margin-right: 1rem;
+    }    
+    nav ul.active{
+        margin-top: 0.1rem
     }
 }
 
