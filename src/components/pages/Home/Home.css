@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oleo+Script:wght@400;700&family=Playball&family=Poiret+One&family=Rye&family=Yeseva+One&display=swap');
+
+
+.about{
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5% 15% ;
+    margin-top: 1rem;
+    font-family: 'Poiret One', cursive;
+}
+.about h3{
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+}
+.about h2{
+    font-size: 2.2rem;
+}
+.about h3, .about h2{
+    text-align: center;
+}
+
+.title_img{
+    background-image: url(../Team/zümrüt-logo5@288x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 60px;
+    margin-left: 47%;
+    /* justify-content: center; */
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+}
+
+.paragraph{
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 2.5rem;
+}
+
+.paragraph_inner {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1.2rem 0.6rem;
+    width: auto;
+}
+
+/* @media screen and (max-width:820px) {
+    .paragraph_inner{
+        width: 250px;
+        font-size: 1rem;
+    }
+    .paragraph .li{
+        /* margin-left: 1rem; 
+        width: 300px;
+    }
+} */
+
+@media screen and (max-width:820px){
+    .paragraph {
+        display: block;
+    }
+    .about{
+        padding: 3% ;
+    }
+    .about hr{
+        margin-bottom: 2.5rem;
+    }
+    .about h2{
+        font-size: 1.5rem;
+    }
+    .about h3{
+        font-size: 1rem;
+    }
+    .paragraph_inner{
+        font-size: 1.1rem;
+        width: fit-content;
+        margin-right: 2.5rem;
+    }
+}
+
+@media screen and (max-width:575px){
+    .about{
+        padding: 1%;
+    }
+}
