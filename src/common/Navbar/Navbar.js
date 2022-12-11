@@ -20,7 +20,7 @@ const Navbar = () => {
             </div>
 
                 <ul className= {click? 'nav-menu active' : "nav-menu" }>
-                    <li><Link to='/' onClick={closeMobileMenu}>Home</Link> </li>
+                    <li><Link to='/home' onClick={closeMobileMenu}>Home</Link> </li>
                     <li><Link to='/jobs' onClick={closeMobileMenu}>Practice Areas</Link> </li>
                     <li><Link to='/testimonial' onClick={closeMobileMenu}>Testimonials</Link> </li>
                     <li><Link to='/team' onClick={closeMobileMenu}>Our Team</Link> </li>
