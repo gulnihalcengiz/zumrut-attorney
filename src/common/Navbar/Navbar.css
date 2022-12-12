@@ -2,8 +2,8 @@
 .top-number{
     text-align: right;
     padding-right: 6%;
-    padding-bottom: 3rem;
-    padding-top: 0.5px;
+    padding-bottom: 2.8rem;
+    padding-top: 1px;
     height: 30px;
     margin-bottom: 0rem;
     background-color: rgb(97, 97, 97);
@@ -153,7 +153,8 @@ nav i{
         height: 8vh;
     }
     .top-number{
-        margin: -0.8rem 0rem;
+        padding: -0.1rem 1rem 2.5rem 0;
+        /* margin: -0.8rem 0rem; */
     }
     .primary-btn{
         margin-top: 1rem;
@@ -167,7 +168,13 @@ nav i{
     .fa-bars{
         margin-top: 1.2rem;
     }
-} 
+}
+
+@media screen and (max-width:585px){
+    .top-number{
+        
+   }
+}
 
 /*--------header--------*/
 
@@ -200,7 +207,7 @@ header .logo{
 }
 
 .header_description h3{
-    
+
 }
 .header_description h1{
     font-size: 4.75rem;
@@ -208,7 +215,7 @@ header .logo{
 .header_description h2{
     font-size: 3rem;
     margin-top: -1rem;
-} 
+}
 
 .header_description span{
     color: rgb(13, 27, 44);
@@ -297,7 +304,7 @@ header .text a{
     .header_description h2{
         font-size: 2.5rem;
         margin-top: -1rem;
-    } 
+    }
     header .text h4{
         font-size: 1.5rem;
         margin-bottom: 0.5rem;
@@ -337,7 +344,7 @@ header .text a{
     }
     .awards_list{
         margin-right: 1rem;
-    }    
+    }
     nav ul.active{
         margin-top: 0.1rem
     }
@@ -451,7 +458,7 @@ header .text a{
     .awards_item{
         height: 80px;
         width: 80px;
-        
+
     }
     .awards_item2{
         width: 60px;
@@ -509,10 +516,10 @@ header .text a{
     }
     .awards_list{
         margin-right: 1rem;
-        
+
     }
     .awards_list li{
         margin-right: 0.5rem;
-        
+
     }
 }
