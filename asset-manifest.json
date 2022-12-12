@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zumrut-attorney/static/css/main.218b4d0e.css",
-    "main.js": "/zumrut-attorney/static/js/main.431696c9.js",
+    "main.css": "/zumrut-attorney/static/css/main.c0141618.css",
+    "main.js": "/zumrut-attorney/static/js/main.aa09c479.js",
     "static/media/SEALA-2020-Badges-Winner.png": "/zumrut-attorney/static/media/SEALA-2020-Badges-Winner.9e5c0acd948fadb4f5d6.png",
     "static/media/Lady-Justice.png": "/zumrut-attorney/static/media/Lady-Justice.4b6c8473f5feb85d7e6a.png",
     "static/media/1655298529SLA_MasterLogo_Colour_2022.jpg": "/zumrut-attorney/static/media/1655298529SLA_MasterLogo_Colour_2022.aa3c74079e6ea069425c.jpg",
@@ -14,11 +14,11 @@
     "static/media/pexels-pixabay-2204532.jpg": "/zumrut-attorney/static/media/pexels-pixabay-2204532.b8cfabc8483e428810e3.jpg",
     "static/media/zümrüt-logo-n.png": "/zumrut-attorney/static/media/zümrüt-logo-n.587268a94bbc1469837b.png",
     "index.html": "/zumrut-attorney/index.html",
-    "main.218b4d0e.css.map": "/zumrut-attorney/static/css/main.218b4d0e.css.map",
-    "main.431696c9.js.map": "/zumrut-attorney/static/js/main.431696c9.js.map"
+    "main.c0141618.css.map": "/zumrut-attorney/static/css/main.c0141618.css.map",
+    "main.aa09c479.js.map": "/zumrut-attorney/static/js/main.aa09c479.js.map"
   },
   "entrypoints": [
-    "static/css/main.218b4d0e.css",
-    "static/js/main.431696c9.js"
+    "static/css/main.c0141618.css",
+    "static/js/main.aa09c479.js"
   ]
 }
