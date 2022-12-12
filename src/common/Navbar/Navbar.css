@@ -150,10 +150,13 @@ nav i{
 @media screen and (max-width:885px){
     .navbar{
         padding: 0.5rem;
-        height: 8vh;
+        height: 7vh;
     }
     .top-number{
-        padding: -0.1rem 1rem 2.5rem 0;
+        padding: 0.5rem 1rem 0rem 0;
+        margin-top: -1rem;
+        margin-bottom: -0.4rem;
+        height: 10px;
         /* margin: -0.8rem 0rem; */
     }
     .primary-btn{
