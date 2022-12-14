@@ -85,7 +85,7 @@ nav i{
     .navbar{
         text-align: center;
         margin-right: 0rem;
-        padding-top: 1rem;
+        padding-top: 0.2rem;
     }
     .login-area{
         position: absolute;
@@ -150,7 +150,7 @@ nav i{
 @media screen and (max-width:885px){
     .navbar{
         padding: 0.5rem;
-        height: 7vh;
+        height: 8vh;
     }
     .top-number{
         padding: 0.5rem 1rem 0rem 0;
