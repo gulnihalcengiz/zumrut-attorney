@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/zumrut-attorney/static/css/main.3f194274.css",
+    "main.css": "/zumrut-attorney/static/css/main.a58cf8e7.css",
     "main.js": "/zumrut-attorney/static/js/main.550ce81c.js",
     "static/media/AGILE+(1).png": "/zumrut-attorney/static/media/AGILE+(1).a46c4a15f9f0cfc4f8b0.png",
     "static/media/SEALA-2020-Badges-Winner.png": "/zumrut-attorney/static/media/SEALA-2020-Badges-Winner.9e5c0acd948fadb4f5d6.png",
@@ -17,11 +17,11 @@
     "static/media/slick.ttf": "/zumrut-attorney/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/zumrut-attorney/index.html",
     "static/media/slick.woff": "/zumrut-attorney/static/media/slick.295183786cd8a1389865.woff",
-    "main.3f194274.css.map": "/zumrut-attorney/static/css/main.3f194274.css.map",
+    "main.a58cf8e7.css.map": "/zumrut-attorney/static/css/main.a58cf8e7.css.map",
     "main.550ce81c.js.map": "/zumrut-attorney/static/js/main.550ce81c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f194274.css",
+    "static/css/main.a58cf8e7.css",
     "static/js/main.550ce81c.js"
   ]
 }
