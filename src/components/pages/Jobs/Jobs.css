@@ -1,6 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oleo+Script:wght@400;700&family=Playball&family=Poiret+One&family=Rye&family=Yeseva+One&display=swap');
 
 
+.jobs_banner{
+    background-image: url(./slider-55.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    justify-content: right;
+    color: white;
+    margin: -1.5rem 0rem;
+}
+.jobs_description{
+    color: white;
+    font-family: 'Poiret One', cursive;
+    text-align: right;
+    justify-content: right;
+    padding: 5rem 7rem 0rem 0rem;
+}
+.jobs_title{
+    font-size: 3.5rem;
+}
+.jobs_title hr{
+    width: 40%;
+    margin-right: -3rem;
+    margin-top: 0.5rem;
+}
+.jobs_paragraph{
+    font-size: 1.8rem;
+}
+
 .areas_section{
     background-color: white;
     padding: 3% 3% 7% 3%;
@@ -213,6 +243,19 @@
     .areas{
         display: block;
     }
+    .jobs_title{
+        margin-right: -5rem;
+        margin-top: 0rem;
+    }
+    .jobs_title hr{
+        margin-right: 1rem;
+        width: 45%;
+    }
+    .jobs_paragraph{
+        margin-right: -8%;
+        margin-left: 8%;
+        font-size: 1.5rem;
+    }
 }
 @media screen and (max-width:800px){
     .areas_section .title_img{
@@ -224,6 +267,17 @@
     .areas_section{
         margin-top: -1rem;
     }
+
+    .jobs_title{
+        margin-top: -1%;
+    }
+    .jobs_paragraph{
+        margin-right: -13%;
+        margin-left: 9%;
+    }
+    .jobs_banner{
+        height: 55vh;
+    }
 }
 @media screen and (max-width:629px){
     .areas_title{
@@ -231,6 +285,14 @@
     }
     .areas_card{
         box-shadow: 0px 0px 0px;
+    }
+
+    .jobs_title{
+        font-size: 3rem;
+    }
+    .jobs_paragraph{
+        margin-right: -16%;
+        margin-left: 9%;
     }
 }
 
@@ -256,5 +318,30 @@
     .areas_card{
         padding: 1rem ;
         box-shadow: 0px 0px 0px;
+    }
+    .jobs_paragraph{
+        margin-right: -18%;
+        margin-left: 9%;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:475px){
+    .jobs_title{
+        font-size: 2.5rem;
+    }
+    .jobs_paragraph{
+        margin-right: -22%;
+    }
+}
+
+
+@media screen and (max-width:395px){
+    .jobs_title{
+        font-size: 1.8rem;
+    }
+    .jobs_paragraph{
+        /* font-size: 1.15rem; */
+        margin-right: -30%;
     }
 }

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oleo+Script:wght@400;700&family=Playball&family=Poiret+One&family=Rye&family=Yeseva+One&display=swap');
+
+
+.single_post{
+    background-color: white;
+    margin: 1rem 0;
+    padding: 2.5% 7%;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+
+.single_post img{
+    width: 95%;
+    height: 100%;
+    /* object-fit: cover; */
+    border-radius: 1.5rem;
+}
+
+.single_post h1{
+    /* text-transform: uppercase; */
+}
+
+.single_post p{
+    font-size: 1.2rem;
+    /* text-transform: ; */
+}
+
+@media screen and (max-width:975px){
+    .single_post h1{
+        font-size: 3.2rem;
+    }
+}
+
+@media screen and (max-width:875px){
+    .single_post h1{
+        font-size: 2.8rem;
+    }
+}
+
+@media screen and (max-width:725px){
+    .single_post h1{
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .single_post h1{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:485px){
+    .single_post h1{
+        font-size: 1.8rem;
+    }
+    .single_post{
+        padding: 2% 4%;
+    }
+}
+
+@media screen and (max-width:375px){
+    .single_post h1{
+        font-size: 1.5rem;
+    }
+    .single_post{
+        padding: 2%;
+    }
+}

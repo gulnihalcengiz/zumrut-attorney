@@ -4,6 +4,14 @@ import './Jobs.css';
 const Jobs = () => {
   return (
     <>
+    <div className='jobs_banner'>
+        <div className='jobs_description'>
+          <h2 className='jobs_title'>ZUMRUT ATTORNEY <hr/></h2> 
+          <p className='jobs_paragraph'>
+            We understand the emotional & financial turmoil involved with domestic relations. <br /> While we strive for peace and cooperation, <br/> we also aggressively protect our clients when necessary.
+          </p>
+        </div>
+      </div>
     <section className='areas_section'>
       {/* <div className='title_img'></div> */}
       <h2 className='areas_title'>- Practice Areas -</h2>

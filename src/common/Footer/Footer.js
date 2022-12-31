@@ -26,7 +26,7 @@ const Footer = () => {
             <i className="fa-solid fa-location-dot"></i> <a href="">Kuzguncuk, Kuşbakışı Cd. No:18 <br /> 34674 Üsküdar/İstanbul</a> 
             </li>
             <li className="address_list-item">
-            <i className="fa-solid fa-envelopes-bulk"></i> <a href="">zümrüthukuk@gmail.com</a> 
+            <i className="fa-solid fa-envelopes-bulk"></i> <a href="/contact">zümrüthukuk@gmail.com</a> 
             </li>
           </ul>
         </li>
@@ -34,9 +34,13 @@ const Footer = () => {
       
     </div>
     <div className="copyright">
-      <p>2022 - All Rights Reserved.</p>
+      <p>2022 - All Rights Reserved.
+      <div className='footer-img'>
+        <img />
+      </div>
+      </p>
       
-      <div className='footer-img'></div>
+      
       </div>
     </>
   )

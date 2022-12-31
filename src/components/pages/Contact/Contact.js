@@ -27,6 +27,15 @@ const Contact = () => {
 };
 
   return (
+    <>
+    <div className='jobs_banner'>
+        <div className='jobs_description'>
+          <h2 className='jobs_title'>ZUMRUT ATTORNEY <hr/></h2> 
+          <p className='jobs_paragraph'>
+            We understand the emotional & financial turmoil involved with domestic relations. <br /> While we strive for peace and cooperation, <br/> we also aggressively protect our clients when necessary.
+          </p>
+        </div>
+      </div>
     <section className="contact_section" id="contact">
         
         {/* <div className='title_img'></div> */}
@@ -126,6 +135,7 @@ const Contact = () => {
             </div>
         </div>
     </section>
+    </>
   )
 }
 

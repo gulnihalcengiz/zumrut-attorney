@@ -21,7 +21,7 @@
 }
 
 .title_img{
-    background-image: url(../Team/zümrüt-logo5@288x.png);
+    /* background-image: url(../Team/zümrüt-logo5@288x.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,16 +47,440 @@
     width: auto;
 }
 
-/* @media screen and (max-width:820px) {
-    .paragraph_inner{
-        width: 250px;
-        font-size: 1rem;
-    }
-    .paragraph .li{
-        /* margin-left: 1rem; 
-        width: 300px;
-    }
+.carousel-inner{
+    font-family: 'Poiret One', cursive;
+}
+
+.header_description{
+    background-image: url(./Lady-Justice.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    padding:5% 5%;
+    font-family: 'Poiret One', cursive;
+}
+/* .item2{
+    background-image: url(./4328858.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.item3{
+    background-image: url(./BrZc7I.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
 } */
+
+header{
+    /* padding: 2rem 2rem 2rem 5rem; */
+    /* background-image: url(../assets/Lady-Justice.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: -0.3rem -1rem;
+    /* height: 700px; */
+    color: white;
+    /* border-radius: 2rem 2rem 0rem 0rem; */
+    font-family: 'Poiret One', cursive;
+}
+header .logo{
+    width: 100px;
+    height: 130px;
+    margin: 5rem 5rem;
+    /* box-sizing: border-box; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item_description{
+    justify-content: left;
+    /* margin-left: -75%;*/
+    /* margin-top: 12rem;  */
+}
+
+.header_description h3{
+
+}
+.header_description h1{
+    font-size: 4.75rem;
+    color: white;
+}
+.header_description h2{
+    font-size: 3rem;
+    margin-top: -1rem;
+}
+
+.header_description span{
+    color: rgb(13, 27, 44);
+}
+
+header .box{
+    margin-right:2rem;
+}
+
+.header_description .text h4{
+    color: rgb(13, 27, 44);
+    font-weight: 800;
+    font-size: 1.85rem;
+    margin-bottom: 0.5rem;
+}
+.header_description .text i{
+    color: rgb(13, 27, 44);
+    font-weight: 800;
+}
+
+.header_description .text a{
+    color: rgb(13, 27, 44);
+    font-weight: 800;
+}
+
+.team{
+    background-color: white;
+    margin:  0rem;
+    padding: 2% 10% 8% 10%;
+    font-family: 'Poiret One', cursive;
+}
+
+.team .card{
+    padding: 0rem 7%;
+    text-align: center;
+    justify-items: center;
+}
+
+.team .card img{
+    margin: 0rem auto;
+    border-radius: 2rem;
+    width: 200px;
+}
+
+.team_title{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.team h2{
+    font-size: 2rem;
+}
+
+.team h2{
+    font-size: 2rem;
+}
+
+.client{
+    background-color: white;
+    font-family: 'Poiret One', cursive;
+    height: 70vh;
+    padding: 3% 7%;
+}
+
+.client{
+    background-image: url(AGILE+\(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    color: white;
+}
+
+.client .card-top{
+    margin-left: 2.5rem;
+    width: 40vh;
+    display: flex;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
+
+.client .card-bottom{
+    margin-left: 2.5rem;
+    margin-top: -0.5rem;
+}
+
+.client .card-bottom h2{
+    font-size: 2rem;
+}
+
+.client_list li{
+    display: inline-block;
+}
+
+.client_title{
+    font-size: 5rem;
+}
+/* .client_list-slide{
+    background-image: url(1644431414311.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30vh;
+    height: 20vh;
+} */
+
+
+
+@media screen and (max-width:930px){
+    .primary-btn{
+        margin-right: -0.5rem;
+    }
+    .header_description h1{
+        font-size: 4rem;
+    }
+    .header_description h2{
+        font-size: 2.5rem;
+        margin-top: -1rem;
+    }
+    header .text h4{
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width:820px){
+    /* .primary-btn{
+        margin-right: -0.5rem;
+    } */
+    header{
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+    .header_description{
+        padding-left: 1.8rem;
+    }
+    header .logo{
+        margin-left: 1.2rem;
+    }
+    .awards_item{
+        height: 110px;
+        width: 110px;
+    }
+    .awards_item2{
+        width: 90px;
+        height: 90px;
+    }
+    .awards_item3{
+        width: 100px;
+        height: 100px;
+    }
+    .awards_item4{
+        width: 160px;
+        height: 40px;
+    }
+    .awards_list{
+        margin-right: 1rem;
+    }
+    nav ul.active{
+        margin-top: 0.1rem
+    }
+}
+
+@media screen and (max-width:695px){
+    .header_description{
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width:645px){
+    header{
+        padding: 1rem;
+        box-sizing: border-box;
+        /* height: 80vh; */
+    }
+    header .logo{
+        width: 70px;
+        height: 90px;
+        margin: 3rem 2rem;
+    }
+    header .text h4{
+        color: rgb(13, 27, 44);
+        font-weight: 800;
+        font-size: 1rem;
+        margin-bottom: 0.35rem;
+    }
+    header .text a{
+        color: rgb(13, 27, 44);
+        font-size: 0.7rem;
+        font-weight: 800;
+    }
+    .header_description{
+        padding-left: 2.2rem;
+    }
+    .header_description h1{
+        font-size: 3rem;
+    }
+    .header_description h2{
+        font-size: 1.5rem;
+    }
+    .awards_item{
+        height: 100px;
+        width: 100px;
+    }
+    .awards_item2{
+        width: 80px;
+        height: 80px;
+    }
+    .awards_item3{
+        width: 90px;
+        height: 90px;
+    }
+    .awards_item4{
+        width: 120px;
+        height: 35px;
+    }
+    .awards_list{
+        margin-right: 1rem;
+    }
+    .team_title{
+        font-size: 2.5rem;
+    }
+    .team h2{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:573px){
+    header{
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+    .header_description{
+        padding-left: 1rem;
+        height: 65vh;
+    }
+    .header_description h1{
+        font-size: 2.85rem;
+    }
+    .header_description h2{
+        font-size: 1.6rem;
+    }
+    .awards_item{
+        height: 90px;
+        width: 90px;
+        margin-top: -0.3rem;
+    }
+    .awards_item2{
+        width: 70px;
+        height: 70px;
+    }
+    .awards_item3{
+        width: 80px;
+        height: 80px;
+    }
+    .awards_item4{
+        width: 110px;
+        height: 30px;
+    }
+    .awards_list{
+        margin-right: 1rem;
+    }
+    .awards_list li{
+        margin-right: 0.5rem;
+    }
+
+    .team{
+        margin-top: -1rem;
+    }
+
+    .team_title{
+        /* font-size: 2.3rem; */
+    }
+}
+
+@media screen and (max-width:479px){
+    header{
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+    .header_description{
+        padding-left: 0.5rem;
+    }
+    .header_description h1{
+        font-size: 2.6rem;
+    }
+    .header_description h2{
+        font-size: 1.4rem;
+    }
+    .awards_item{
+        height: 80px;
+        width: 80px;
+
+    }
+    .awards_item2{
+        width: 60px;
+        height: 60px;
+    }
+    .awards_item3{
+        width: 70px;
+        height: 70px;
+    }
+    .awards_item4{
+        width: 90px;
+        height: 25px;
+    }
+    .awards_list{
+        margin-right: 1rem;
+    }
+    .awards_list li{
+        margin-right: 0.5rem;
+    }
+    /* .team_title{
+        font-size: 1.7rem;
+    } */
+    .team h2{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:429px){
+    header{
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+    header .logo{
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    .header_description{
+        padding-left: 0.35rem;
+        height: 57vh;
+    }
+    /* .header_description h1{
+        font-size: 2.85rem;
+    }
+    .header_description h2{
+        font-size: 1.6rem;
+    } */
+    .awards_item{
+        height: 70px;
+        width: 70px;
+    }
+    .awards_item2{
+        width: 50px;
+        height: 50px;
+    }
+    .awards_item3{
+        width: 60px;
+        height: 60px;
+    }
+    .awards_item4{
+        width: 85px;
+        height: 25px;
+    }
+    .awards_list{
+        margin-right: 1rem;
+
+    }
+    .awards_list li{
+        margin-right: 0.5rem;
+
+    }
+}
 
 @media screen and (max-width:820px){
     .paragraph {
@@ -85,5 +509,111 @@
     .about{
         padding: 1%;
         margin: 0rem;
+    }
+}
+
+/* CLIENT */
+
+@media screen and (max-width:875px){
+
+    .client{
+        height: 92vh;
+        padding: 6% 8%;
+    }
+    
+    .client_title{
+        font-size: 4rem;
+    }
+
+    .client .card-top{
+        font-size: 1.4rem;
+    }
+    
+}
+
+@media screen and (max-width:750px){
+
+    .client{
+        height: 75vh;
+        padding: 6% 8%;
+    }
+    
+    .client_title{
+        font-size: 3.5rem;
+    }
+
+    .client .card-top{
+        font-size: 1.2rem;
+    }
+    
+    .client .card-bottom h2{
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width:585px){
+
+    .client_title{
+        font-size: 3.2rem;
+    }
+
+    .client .card-top{
+        font-size: 1.2rem;
+    }
+    
+    .client .card-bottom h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:530px){
+    .client{
+        height: 70vh;
+        padding: 8% 10%;
+    }
+    .client_title{
+        font-size: 2.8rem;
+    }
+}
+
+@media screen and (max-width:465px){
+
+    .client_title{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:410px){
+
+    .client{
+        height: 70vh;
+        padding: 15% 10%;
+    }
+    .client_title{
+        font-size: 2rem;
+    }
+    .client .card-top{
+        margin-left: 0.5rem;
+    }
+    
+    .client .card-bottom{
+        margin-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width:375px){
+    .client{
+        padding: 20% 11%;
+    }
+    .client_title{
+        font-size: 1.8rem;
+    }
+    .client .card-top{
+        margin-left: 0.5rem;
+        font-size: 1.1rem;
+    }
+    
+    .client .card-bottom h2{
+       font-size: 1.3rem;
     }
 }

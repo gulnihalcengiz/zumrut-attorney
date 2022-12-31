@@ -22,8 +22,8 @@ const Navbar = () => {
                 <ul className= {click? 'nav-menu active' : "nav-menu" }>
                     <li><Link to='/home' onClick={closeMobileMenu}>Home</Link> </li>
                     <li><Link to='/jobs' onClick={closeMobileMenu}>Practice Areas</Link> </li>
-                    <li><Link to='/testimonial' onClick={closeMobileMenu}>Testimonials</Link> </li>
-                    <li><Link to='/team' onClick={closeMobileMenu}>Our Team</Link> </li>
+                    {/* <li><Link to='/testimonial' onClick={closeMobileMenu}>Testimonials</Link> </li> */}
+                    <li><Link to='/blogs' onClick={closeMobileMenu}>Blogs</Link> </li>
                     <li><Link to='/contact' onClick={closeMobileMenu}>Contact</Link> </li>
                 </ul>
 
@@ -47,43 +47,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <header>
-        <div className='container flex_space'>
-            
-
-            <div className="header_description">
-                <h3></h3>
-                <h1>Judge & <span>Justice</span>.</h1>
-                <h2>We are your progressive <br/> <span>law</span> partner.</h2>
-                <div className='text'>
-                        <h4>Working Hours</h4><i className='far fa-clock'></i> 
-                        <Link to="/contact"> Monday - Sunday : 9.00am to 6.00pm </Link>
-                </div>
-            </div>
-
-                <div className='box'>
-                    {/* <div className='icon'></div> */}
-                    
-                </div>
-                
-        </div>
-        <div className='logo'>
-                {/* <img src='' /> */}
-            </div>
-        
-
-        
-      </header>
-        <div className="awards">
-          <ul className="awards_list">
-            <li className="awards_item">
-              <img src="TLG-Legal-Award-Badge-2020@0.75x.png" alt="" />
-            </li>
-            <li className="awards_item2"></li>
-            <li className="awards_item3"></li>
-            <li className="awards_item4"></li>
-          </ul>
-        </div>
+      
     </>
   )
 }

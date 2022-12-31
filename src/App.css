@@ -52,6 +52,12 @@ h1{
     font-weight: bolder;
   }
 
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
 
   @media screen and (max-width:658px){
     body{
