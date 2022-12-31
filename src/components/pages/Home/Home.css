@@ -350,7 +350,7 @@ header .box{
         box-sizing: border-box;
     }
     .header_description{
-        padding-left: 1rem;
+        padding-left: 2rem;
         height: 65vh;
     }
     .header_description h1{
@@ -397,9 +397,9 @@ header .box{
         padding: 1rem;
         box-sizing: border-box;
     }
-    .header_description{
+    /* .header_description{
         padding-left: 0.5rem;
-    }
+    } */
     .header_description h1{
         font-size: 2.6rem;
     }
@@ -447,7 +447,7 @@ header .box{
         margin-bottom: 1rem;
     }
     .header_description{
-        padding-left: 0.35rem;
+        /* padding-left: 0.35rem; */
         height: 57vh;
     }
     /* .header_description h1{
@@ -508,7 +508,7 @@ header .box{
 @media screen and (max-width:575px){
     .about{
         padding: 1%;
-        margin: 0rem;
+        /* margin: 0rem; */
     }
 }
 
